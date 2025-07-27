@@ -17,7 +17,7 @@ To develop a complete machine learning pipeline that:
 
 ## 🧠 Dataset
 
-- Composed of multiple `.xlsx` files (e.g. `spam-1.xlsx` to `spam-6.xlsx`)
+- Composed of spam csv split into multiple `.xlsx` files (e.g. `spam-1.xlsx` to `spam-6.xlsx`)
 - Columns:
   - `v1`: Label (ham/spam)
   - `v2`: Email content
