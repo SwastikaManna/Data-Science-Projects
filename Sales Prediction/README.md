@@ -95,9 +95,3 @@ To build a robust regression model that can predict product sales based on adver
 | Digital Focus    | 170 | 30    | 0         | 17.44           |
 
 ---
-
-## 💾 How to Run
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/yourusername/sales-prediction-svr.git
