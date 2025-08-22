@@ -31,28 +31,8 @@ This project demonstrates a complete machine learning workflow for classifying I
 - Evaluates with test accuracy, classification report, confusion matrix
 - Visualizes confusion matrix and feature importances using Matplotlib
 - Helper function for single-sample species prediction with correct feature names
-
 ---
 
-## 🛠️ Installation & Setup
-
-1. **Clone the repository:**
-    ```
-    git clone https://github.com/yourusername/iris-flower-classification.git
-    cd iris-flower-classification
-    ```
-
-2. **Install requirements:**
-    ```
-    pip install -r requirements.txt
-    ```
-
-3. **Run the script:**
-    ```
-    python iris_classification.py
-    ```
-
----
 
 ## 📑 Usage
 
