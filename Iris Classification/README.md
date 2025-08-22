@@ -1,77 +1,92 @@
-# Unemployment Rate Analysis During COVID-19 using Python
+# Iris Flower Classification – End-to-End Python Project
 
-This data science project analyzes the trends and impact of unemployment during the COVID-19 pandemic using Python. It explores how unemployment rates changed over time, across regions, and among different demographics. The project emphasizes data visualization and statistical analysis.
-
----
-
-## 🎯 Project Objective
-
-Perform a comprehensive analysis of unemployment rates—focusing on the sharp spike during the COVID-19 period—and derive insights using Python libraries such as Pandas, Matplotlib, Seaborn, and Plotly.
+This project demonstrates a complete machine learning workflow for classifying Iris flower species using the Random Forest algorithm in Python. It includes data loading, preprocessing, stratified train/test split, hyperparameter tuning with GridSearchCV, model evaluation, and helper utilities for single-sample predictions.
 
 ---
 
-## 📦 Dataset
+## 🚀 Project Overview
 
-- **Source:** Government open data portals / Kaggle / Statista
-- **Attributes may include:**
-    - Date
-    - State/Region
-    - Unemployment Rate (%)
-    - Labor Participation Rate
-    - Gender-wise or Age-wise data (if available)
+- **Objective:** Classify Iris flower species (Setosa, Versicolor, Virginica) using scikit-learn's Iris dataset and Random Forests.
+- **Pipeline:** Loads data, splits with stratification, tunes hyperparameters, evaluates model, visualizes results, and provides single-sample prediction functionality.
 
 ---
 
-## ⭐ Key Features
+## 🗂️ Dataset
 
-- Load and clean real-world unemployment datasets
-- Visualize time-series changes in unemployment
-- Compare unemployment rates across regions/states
-- COVID-19 period vs Pre-COVID comparison
-- Correlation analysis with other economic indicators (optional)
-- Export findings into graphs and tables
-
----
-
-## 💻 Technologies Used
-
-- Python 3.x
-- Pandas
-- Matplotlib
-- Seaborn
-- Plotly
+- **Source:** scikit-learn's built-in Iris dataset
+- **Features:**
+  - Sepal length (cm)
+  - Sepal width (cm)
+  - Petal length (cm)
+  - Petal width (cm)
+- **Target Classes:** Setosa, Versicolor, Virginica
 
 ---
 
-## ⚡ How to Run
+## ⚙️ Key Features
 
-1. **Clone this repo**
+- Loads and preprocesses the Iris dataset using Pandas DataFrames
+- Performs stratified 80/20 train-test split
+- Tunes Random Forest hyperparameters with GridSearchCV and StratifiedKFold
+- Evaluates with test accuracy, classification report, confusion matrix
+- Visualizes confusion matrix and feature importances using Matplotlib
+- Helper function for single-sample species prediction with correct feature names
+
+---
+
+## 🛠️ Installation & Setup
+
+1. **Clone the repository:**
     ```
-    git clone https://github.com/yourusername/unemployment-covid-analysis.git
-    cd unemployment-covid-analysis
+    git clone https://github.com/yourusername/iris-flower-classification.git
+    cd iris-flower-classification
     ```
 
-2. **Install dependencies**
+2. **Install requirements:**
     ```
     pip install -r requirements.txt
     ```
 
-3. **Run the analysis script**
+3. **Run the script:**
     ```
-    python unemployment_analysis.py
+    python iris_classification.py
     ```
+
+---
+
+## 📑 Usage
+
+- Execute the script directly. Upon completion, it will print model performance metrics and example predictions for new flower measurements.
+- Use the `predict_iris_species(model, [sepal_len, sepal_wid, petal_len, petal_wid])` function for classifying new samples.
+
+---
+
+## 🖼️ Outputs & Visualizations
+
+- Plots: Confusion matrix and feature importances
+- Terminal: Best hyperparameters, accuracy, classification report, example predictions
+
+---
+
+## 🧩 Dependencies
+
+- numpy
+- pandas
+- scikit-learn
+- matplotlib
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! Open issues or submit pull requests to enhance features, add datasets, or improve visualizations.
+Contributions, issues, and feature requests are welcome! Please open a pull request or issue.
 
 ---
 
-## 📝 License
+## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
+**Happy Learning and Coding!**
